@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TÍTULO */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* TEXTO */
+p {
+    margin: 6px 0;
+    color: #ccc;
+}
+
+/* INPUT */
+input {
+    width: 280px;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    outline: none;
+    font-size: 16px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #00f2fe;
+    box-shadow: 0 0 10px #00f2fe;
+}
+
+/* BOTÃO */
+button {
+    width: 280px;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #00f2fe, #4facfe);
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00f2fe;
+}
+
+/* MENSAGENS */
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+#tentativas {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #bbb;
+}
